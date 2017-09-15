@@ -152,4 +152,7 @@ button {
   .content {
     max-width: 100%;
   }
+  .button--remove-item {
+    font-size: 45px;
+  }
 }
