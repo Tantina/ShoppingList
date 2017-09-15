@@ -1,0 +1,142 @@
+body,
+input,
+button {
+  font: 16px CURSIVE;
+}
+.content {
+  background-color: #fffde0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container {
+  padding: 15px 15px 25px 35px;
+  position: relative;
+}
+
+.header {
+  background: orange;
+  color: #fff;
+  padding: 10px;
+
+  h1 {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .button--add-new {
+    float: right;
+  }
+
+  .button--remove-all {
+    float: right;
+    margin-top: 5px;
+  }
+}
+
+/*Buttons*/
+.button--remove-all {
+  background: transparent ;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.button-default {
+  background: orange;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.button--remove-item {
+  background: transparent;
+  border: none;
+  color: orange;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 0.9;
+  padding: 0px 10px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/*Form*/
+
+.purchase-form__input {
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ccc;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.purchase-form__input--name {
+    width: 25%;
+  }
+  &.purchase-form__input--desc {
+    width: 38%;
+  }
+  &.purchase-form__input--number {
+    text-align: center;
+    width: 10%;
+  }
+}
+
+.purchase-form {
+  margin-bottom: 5px;
+
+  &__input {
+    margin-right: 5%;
+  }
+  .button--add-item {
+    width: 12%;
+  }
+}
+
+/*List*/
+
+.purchase-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    margin-bottom: 5px;
+  }
+
+  .button--edit-item {
+    display: inline-block;
+    width: 12%;
+  }
+
+  .button--remove-item {
+    position: absolute;
+    left: 5px;
+  }
+}
+
+
+.purchase-list__data {
+  &__field {
+    display: inline-block;
+    margin-right: 5%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    &--name { width: 25%; }
+    &--desc { width: 38%; }
+    &--number {
+      width: 10%;
+      text-align: center;
+    }
+  }
+}
