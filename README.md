@@ -2,10 +2,10 @@
 
 At first install npm packages:
 
-npm install
+<pre>npm install</pre>
 
 Then in the project directory run:
 
-npm run start
+<pre>npm run start</pre>
 
 Open http://localhost:8080 to view it in the browser.
