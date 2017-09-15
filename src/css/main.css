@@ -1,7 +1,7 @@
 body,
 input,
 button {
-  font: 16px CURSIVE;
+  font: 16px Comic Sans MS;
 }
 .content {
   background-color: #fffde0;
@@ -49,6 +49,7 @@ button {
   border-radius: 15px;
   color: #fff;
   cursor: pointer;
+  max-width: 70px;
   padding: 5px;
 }
 
@@ -74,6 +75,7 @@ button {
   border-right: none;
   border-left: none;
   border-bottom: 1px solid #ccc;
+  padding: 0;
 
   &:focus {
     outline: none;
@@ -114,7 +116,6 @@ button {
   }
 
   .button--edit-item {
-    display: inline-block;
     width: 12%;
   }
 
