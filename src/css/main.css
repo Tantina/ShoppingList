@@ -141,3 +141,15 @@ button {
     }
   }
 }
+
+
+/*Media queries*/
+
+@media only screen and (max-device-width: 768px) {
+  body, button, input {
+    font-size: 30px;
+  }
+  .content {
+    max-width: 100%;
+  }
+}
